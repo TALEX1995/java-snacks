@@ -8,7 +8,8 @@ public class Snack5 {
 		
 		Scanner in = new Scanner(System.in);
 		
-		do {
+
+		while(true) {
 			
 //			Ask word to user
 			System.out.println("Inserisci una parola, oppure inserisci 0 se vuoi uscire");
@@ -39,8 +40,7 @@ public class Snack5 {
 			System.out.println("La parola contiene " + numbers + " numeri");
 			System.out.println("La parola contiene " + symbols + " simboli non alfanumerici");
 			
-		} while (true);
-		
+		};
 	}
 
 }
