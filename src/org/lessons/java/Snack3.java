@@ -8,10 +8,16 @@ public class Snack3 {
 		
 		int sum = 0;
 		
-		for(int i = 0; i < numbers.length; i++) {
-			if(i % 2 == 1) {
+//		for(int i = 0; i < numbers.length; i++) {
+//			if(i % 2 == 1) {
+//				sum += numbers[i];
+//			}
+//		}
+		
+		for(int i = 1; i < numbers.length; i+=2) {
+			
 				sum += numbers[i];
-			}
+			
 		}
 		
 		System.out.println("La somma dei numeri in posizione dispari è: " + sum);
